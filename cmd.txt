@@ -1,0 +1,46 @@
+Linux commands
+
+1) pwd -> checking path of current location
+2) ls->list down the things(all the files from the resp location) which we have
+3) mkdir Names-> creating new directory using any make providing after mkdir (always shown in blue collor )
+4) rmdir Name-> for remove directory of the specific name
+5) whoami-> gives you user name 
+6) cd directoryName-> will be in that directory and check path using pwd it will show path with our directory
+7) date-> using for checking the date gitve the date in the format( Thu Sep  4 11:07:26 PDT 2025)
+8) date +%D-> it will give only date in the format like 09/04/2025
+9) date +%T-> only gives the time
+10) date +%H:%M->now it will show the hours and minutes form (11:14)
+11) cd ..-> for come out of from current directory
+12) ls -lt-> which directry create on what time and date with the name and size with the order in of letest first.
+13) ls -ltr-> here r stand for reverse order used for showing oldest first.
+
+drwxr-xr-x 1 ietuser ietuser 512 Sep  4 11:01 siddharth
+drwxr-xr-x 1 ietuser ietuser 512 Sep  4 11:04 snehal
+drwxr-xr-x 1 ietuser ietuser 512 Sep  4 11:16 abc
+drwxr-xr-x 1 ietuser ietuser 512 Sep  4 11:16 xyz
+here d is directory and other 9 are te permission 
+
+=============================
+
+nano is the first editor -> by default functionality for saving the file data
+second editor->vim
+third editor -> vi
+
+14) touch filename.extension->  for creating the file 
+15) nano filename-> now want to edit that file which we have created using this command then we have edited and then for save we ->control+x -> then type y. 
+
+16) cat filename-> for reading the files on the using the command it will show the all the data on the below of the command itself
+ clear  -> to clear the screen
+mv filename directoryname
+17)ch we can give the permission 1 execute,2 write,3 write and execute,4 read,5 read and execute,6 read and write,7
+chmode 777 for assigning the permissinon to grp
+it will provide read write execute
+
+SHABANLINE need #!/bin/sh in edit we have to write this line for writing script 
+$ is used
+
+unset =>if initialising a variable then it will unset that variable again
+echo $name=> name is the variable and echo is using for printing the value from the variable name using $
+
+we can provide the "readonly mode" in file also
+ 
